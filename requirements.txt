@@ -1,0 +1,10 @@
+gensim==3.0.0
+ijson
+nltk
+networkx
+pandas
+matplotlib
+SPARQLWrapper
+rdflib
+tensorflow_gpu==1.1.0
+spacy==2.0.0
