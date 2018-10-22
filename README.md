@@ -18,7 +18,7 @@ Download the glove vector files
 cd data
 wget http://nlp.stanford.edu/data/glove.840B.300d.zip
 unzip glove.840B.300d.zip
-echo "2196017 300" | cat _ glove.840B.300d > glove_2.2M.txt
+echo "2196017 300" | cat - glove.840B.300d.txt > glove_2.2M.txt
 cd ..
 ```
 
@@ -30,3 +30,8 @@ bunzip2 x*
 cat x* > wikidata_items.csv
 cd ..
 ```
+
+
+Running the models
+------------------
+
