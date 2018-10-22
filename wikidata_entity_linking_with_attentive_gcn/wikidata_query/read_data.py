@@ -139,6 +139,11 @@ def get_data_and_write_json(filename, offset, limit, json_file):
 
 def infer_vector_from_vector_nodes(vector_list):
     vector = np.zeros(300)
+    for v in vector_list:
+        vector += v
+    norm = np.linalg.norm(vector)
+    if norm > 0:
+        vector /= norm
     return vector
 
 

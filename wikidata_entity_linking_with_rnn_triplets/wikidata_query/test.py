@@ -104,7 +104,7 @@ def test(data, model):
 
 
 if __name__ == '__main__':
-    with open(os.path.join(_path, '../data/wikidata-disambig-dev.json')) as f:
+    with open(os.path.join(_path, '../../dataset/wikidata-disambig-dev.json')) as f:
         json_data = json.load(f)
     data = get_json_data(json_data)
     for i in range(0, 12, 1):

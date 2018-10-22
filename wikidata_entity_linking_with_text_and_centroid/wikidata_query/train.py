@@ -75,7 +75,7 @@ def train(data, model, saving_dir, name_prefix, epochs=20, bucket_size=10, trace
 
 
 if __name__ == '__main__':
-    with open(os.path.join(_path, '../data/wikidata-disambig-train.json')) as f:
+    with open(os.path.join(_path, '../../dataset/wikidata-disambig-train.json')) as f:
         json_data = json.load(f)
     data = get_json_data(json_data)
     nn_model = GCN_QA(dropout=1.0)
