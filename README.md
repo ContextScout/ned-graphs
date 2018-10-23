@@ -35,3 +35,15 @@ cd ..
 Running the models
 ------------------
 
+In order to train the system
+
+```bash
+cd <MODEL_NAME>
+python -m wikidata_query.train
+```
+
+Similarly for testing
+```bash
+cd <MODEL_NAME>
+python -m wikidata_query.test
+```
