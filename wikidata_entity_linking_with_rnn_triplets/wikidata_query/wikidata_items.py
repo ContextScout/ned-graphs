@@ -5,7 +5,7 @@ _path = os.path.dirname(__file__)
 
 
 class WikidataItems:
-    _filename = os.path.join(_path, '../data/wikidata_items.csv')
+    _filename = os.path.join(_path, '../../data/wikidata_items.csv')
     _logger = logging.getLogger(__name__)
 
     def __init__(self):
